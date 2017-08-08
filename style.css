@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800|Raleway:300,300i,400,700,800');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: darkgray;
+}
+
+#topDiv {
+    background: lightgray;
+}
+
+#h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#amountInputs {
+    text-align: center;
+}
+
+.textInputs {
+    width: 20%;
+    padding: .5%;
+    margin: .5% 10%;
+}
+
+#buttonDiv {
+    text-align: center;
+    padding: .5%;
+}
+
+button {
+    width: 10%;
+}
+
+#dollarDiv {
+    text-align: center;
+    background: lightgray;
+    padding: 2.5%;
+    margin-top: .4%;
+}
+
+button:hover {
+    background: darkgray;
+    color: white;
+}
+
+#centsDiv {
+    background: lightgray;
+    text-align: center;
+    margin-top: .8%;
+}
+
+.cents {
+    width: 24%;
+    display: inline-block;
+}
+
+.clearFix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
